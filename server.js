@@ -63,6 +63,8 @@ app.post('/signup', (req, res) => {
     }
 })
 
-app.listen(8000, () => {
-    console.log('Server running at http://localhost:8000/');
-});
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
