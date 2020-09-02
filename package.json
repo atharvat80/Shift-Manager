@@ -1,0 +1,29 @@
+{
+  "name": "shift-manager",
+  "version": "1.0.0",
+  "description": "Shift manager built with svelte",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvat80/shift-mananger.git"
+  },
+  "author": "Atharva Tidke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atharvat80/shift-mananger/issues"
+  },
+  "homepage": "https://github.com/atharvat80/shift-mananger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
